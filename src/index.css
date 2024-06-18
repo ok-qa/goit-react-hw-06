@@ -25,9 +25,11 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url(../src/assets/13223496_5183000.jpeg);
 }
 
 h1 {
